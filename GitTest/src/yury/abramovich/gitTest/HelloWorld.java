@@ -5,12 +5,17 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		
 		print(HelloWorldHelp.getHelloWorld());
-		for(int i=0; i<10; i++)
-			print(new Integer (i));
+		new HelloWorld().count10();
+
 	}
 // print some object
 	private static void print(Object o)
 	{
 		System.out.println(o.toString());
+	}
+	
+	private void count10() {
+		for(int i=0; i<10; i++)
+			print(new Integer (i));
 	}
 }
