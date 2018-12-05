@@ -16,6 +16,6 @@ public class HelloWorld {
 	
 	private void count10() {
 		for(int i=0; i<10; i++)
-			print(new Integer (i));
+			print(new Integer (HelloWorldHelp.squad(i)));
 	}
 }

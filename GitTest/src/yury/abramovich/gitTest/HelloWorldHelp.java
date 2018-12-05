@@ -8,5 +8,10 @@ public class HelloWorldHelp {
 	{
 	return	HELLO_WORLD;
 	}
+	
+	static public int squad(int i)
+	{
+	return	i*i;
+	}
 
 }
