@@ -1,4 +1,5 @@
 package yury.abramovich.gitTest;
+//just Help
 
 public class HelloWorldHelp {
 	
@@ -14,9 +15,9 @@ public class HelloWorldHelp {
 	return	HELLO_WORLD;
 	}
 	
-	static public int squad(int k)
+	static public int squad(int j)
 	{
-	return	k*k;
+	return	j*j;
 	}
 
 }
