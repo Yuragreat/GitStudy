@@ -8,7 +8,7 @@ public class HelloWorld {
 		for(int i=0; i<10; i++)
 			print(new Integer (i));
 	}
-
+// print some object
 	private static void print(Object o)
 	{
 		System.out.println(o.toString());
