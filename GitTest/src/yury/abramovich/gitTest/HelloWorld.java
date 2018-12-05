@@ -4,7 +4,7 @@ public class HelloWorld {
 	// correct main
 	public static void main(String[] args) {
 		
-		print("Hello World");
+		print(HelloWorldHelp.getHelloWorld());
 		for(int i=0; i<10; i++)
 			print(new Integer (i));
 	}
