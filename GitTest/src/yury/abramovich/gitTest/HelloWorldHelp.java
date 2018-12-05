@@ -14,9 +14,9 @@ public class HelloWorldHelp {
 	return	HELLO_WORLD;
 	}
 	
-	static public int squad(int i)
+	static public int squad(int k)
 	{
-	return	i*i;
+	return	k*k;
 	}
 
 }
