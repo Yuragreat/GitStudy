@@ -4,7 +4,7 @@ public class HelloWorld {
 	// correct main
 	public static void main(String[] args) {
 		
-		print(HelloWorldHelp.getHelloWorld());
+		print(new HelloWorldHelp().getHelloWorld());
 		new HelloWorld().count10();
 
 	}
